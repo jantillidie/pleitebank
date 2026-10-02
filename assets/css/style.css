@@ -106,6 +106,7 @@ nav{
     background-image: url(../images/hero.png);
     background-repeat: no-repeat;
     background-position-x: right;
+    background-position-y: bottom;
     height: 500px;
 }
 
