@@ -126,7 +126,7 @@ nav{
 }
 
 .hero {
-    background-image: url(../images/hero.png);
+    background-image: url(../images/hero.webp);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
@@ -218,12 +218,20 @@ nav{
     fill: #E67E22;
 }
 .icon-phone {
-    background-color: #F1EFFF;
+    background-color: #e6e6fe;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    padding: 8px;
+    fill: #3733fe;
+}
+.icon-arrows {
+    background-color: #e6e6fe;
     width: 48px;
     height: 48px;
     border-radius: 50%;
     padding: 12px;
-    fill: #6C5CE7;
+    stroke: #3733fe;
 }
 .icon-arrow {
     background-color: #EBF3FE;
