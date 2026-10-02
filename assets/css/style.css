@@ -201,3 +201,11 @@ nav{
     padding: 12px;
     fill: #6C5CE7;
 }
+.icon-arrow {
+    background-color: #EBF3FE;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    padding: 12px;
+    fill: #0066FF;
+}
