@@ -13,9 +13,11 @@ body {
 .header {
     display: flex;
 }
+
 h1 {
     font-size: 48px;
 }
+
 h2 {
     padding: 18px 0;
     font-size: 34px;
@@ -28,7 +30,8 @@ a {
 p {
     color: #64748B;
 }
-nav{
+
+nav {
     height: 80px;
     display: flex;
     justify-content: space-evenly;
@@ -36,11 +39,11 @@ nav{
 
 }
 
-.nav-left{
+.nav-left {
     padding: 26px 0 0 0;
 }
 
-.nav-right{
+.nav-right {
     padding: 28px 0 0 0;
 }
 
@@ -66,7 +69,6 @@ nav{
 
 .search {
     padding: 16px 20px 0 0;
-    border-right: 1px solid #64748B;
     stroke: #64748B;
 }
 
@@ -138,12 +140,18 @@ nav{
     display: flex;
     justify-content: center;
     background-color: white;
+    padding: 0 196px;
 
 }
+
 .top-row-card {
     padding: 42px;
     display: flex;
     gap: 20px;
+}
+
+.border-right {
+    border-right: 2px solid #E2E8F0;
 }
 
 
@@ -157,28 +165,30 @@ nav{
     justify-content: center;
     gap: 28px;
 }
+
 .hero-text {
     display: flex;
     width: 44%;
     flex-direction: column;
     gap: 30px;
     padding: 100px;
-    
+
 }
+
 .hero-text-p {
     font-size: 21px;
     padding: 0 0 22px 0;
 }
 
-.blue{
+.blue {
     color: #0066FF;
 }
 
-.small-headline{
+.small-headline {
     text-transform: uppercase;
 }
 
-.second-row-card{
+.second-row-card {
     background-color: white;
     padding: 42px;
     border-radius: 16px;
@@ -186,6 +196,7 @@ nav{
     display: flex;
     gap: 20px;
 }
+
 .icon-schnell {
     background-color: #EBF3FE;
     width: 48px;
@@ -194,6 +205,7 @@ nav{
     padding: 12px;
     fill: #0066FF;
 }
+
 .icon-sicher {
     background-color: #E6F8F0;
     width: 48px;
@@ -202,6 +214,7 @@ nav{
     padding: 12px;
     fill: #00B368;
 }
+
 .icon-karten {
     background-color: #E6F8F0;
     width: 48px;
@@ -210,6 +223,7 @@ nav{
     padding: 12px;
     stroke: #00B368;
 }
+
 .icon-transparent {
     background-color: #FDF3E7;
     width: 48px;
@@ -218,6 +232,7 @@ nav{
     padding: 12px;
     fill: #E67E22;
 }
+
 .icon-phone {
     background-color: #e6e6fe;
     width: 48px;
@@ -226,6 +241,7 @@ nav{
     padding: 8px;
     fill: #3733fe;
 }
+
 .icon-arrows {
     background-color: #e6e6fe;
     width: 48px;
@@ -234,6 +250,7 @@ nav{
     padding: 12px;
     stroke: #3733fe;
 }
+
 .icon-arrow {
     background-color: #EBF3FE;
     width: 48px;
